@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.repo-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.crown {
+    font-size: 24px;
+}
+
+.repo-description {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.repo-link {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cydia {
+    background-color: #1c8bc1;
+}
+
+.sileo {
+    background-color: #f44e00;
+}
+
+.zebra {
+    background-color: #3ac36b;
+}
+
+.kho-ipa {
+    background-color: #eb5d40;
+}
+
+.kho-dylib {
+    background-color: #9b59b6;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+}
